@@ -3,11 +3,11 @@
 <!-- If multi-language site, reconsider usage of html lang declaration here. -->
 <html lang="en">
 
-  <head>
+<head>
 
     <meta charset="utf-8">
 
-    <title>Fortune Forever | Urban Oasis</title>
+    <title>Fortune Forever | Privacy Policy</title>
 
     <!-- 120 word description for SEO purposes goes here. Note: Usage of lang tag. -->
     <meta name="description" lang="en" content="">
@@ -19,7 +19,7 @@
     <!-- This meta tag is used for mobile device to display the page without any zooming,
          so how much the device is able to fit on the screen is what's shown initially.
          Remove comments from this tag, when you want to apply media queries to the website. -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
 
     <!-- To adhear no-cache for Chrome 
     <meta http-equiv="cache-control" content="no-store, no-cache, must-revalidate" />
@@ -37,7 +37,7 @@
 
     <!--jQuery -->
     <script src="assets/vendor/jquery-2.2.0.min.js"></script>
-   <!-- <script src="//code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> -->
+    <!-- <script src="//code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> -->
 
     <!-- For IE9 browsers. -->
     <!--[if IE 9 ]><html class="ie9"> <![endif]-->
@@ -47,27 +47,27 @@
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-        <script type="text/javascript">
-        function hide() {
-            document.getElementById('main-quote').style.visibility="hidden";
-        }
+    <script type="text/javascript">
+    function hide() {
+        document.getElementById('main-quote').style.visibility="hidden";
+    }
 
-        function show() {
-            document.getElementById('main-quote').style.visibility="visible";
+    function show() {
+        document.getElementById('main-quote').style.visibility="visible";
+    }
+
+    function hideshow() {
+        if(document.getElementById('main-quote').style.visibility=="visible"){
+            hide();
+        } else {
+            show();
         }
-        
-        function hideshow() {
-            if(document.getElementById('main-quote').style.visibility=="visible"){
-                hide();
-            } else {
-                show();
-            }
-        }
+    }
     </script>
 
-  </head>
+</head>
 
-  <body onload="hide()" class="urban">
+<body onload="hide()">
 
     <div class="container">
 
@@ -82,8 +82,8 @@
                 <nav>
                     <ul>
                         <li><a href="opportunity.php" title="Opportunity" >Opportunity</a></li>
-                        <li><a href="urban-oasis.php" title="Urban Oasis" class="active">Urban Oasis</a></li>
-                        <li><a href="location.php" title="Location">Location</a></li>
+                        <li><a href="urban-oasis.php" title="Urban Oasis" >Urban Oasis</a></li>
+                        <li><a href="location.php" title="Location" >Location</a></li>
                         <li><a href="whyinvestearly.php" title="Why Invest Early">Why Invest Early</a></li>
                         <li><a href="plans.php" title="Plans">Plans</a></li>
                         <li><a href="price.php" title="Price">Price</a></li>
@@ -114,18 +114,31 @@
         <!-- content starts here -->
         <div class="content" onclick="hide()">
             <div class="wrapper">
-                <div class="opp-content">
-                    <div class="opp-left">
-                        <img src="assets/images/urban.jpg" alt="Img"  />
-                    </div>
-                    <div class="opp-right">
-                        <h2>AN URBAN OASIS. INSPIRED BY GREAT RESIDENTIAL NEIGHBOURHOODS OF THE WORLD.</h2>
-                        <ul>
-                            <li>Lodha Group has brought together the finest internationally acclaimed partners to create an utopian neighbourhood which will define a new benchmark in urban living - an urban oasis in Prime Central Thane, built on the principles of new urbanism & inspired by successful developments of Powai & Palava.</li>
-                            <li>Such branded urban neighbourhoods in MMR, an extremely rare phenomenon, provide an enriched lifestyle, filled with innumerable experiences that fulfil the promise of a happy future</li>
-                            <li>Grand clubhouse with multiple mini-clubs, finest sports complex in Mumbai with football ground, multiple sports courts & swimming pools, 25 acres of open space and much more – designed by STX Singapore</li>
-                        </ul>
-                    </div>
+                <div class="policy-content">
+                    <h2>Privacy Policy</h2>
+                    <p>
+                        Your information is as important to us as it is to you and we are committed to protect your information. While you can access some areas of this website anonymously, you may be required to provide personal information to gain access to the restricted sections.
+                    </p>
+                    <h3>What we collect and how we use the personal information</h3>
+                    <p>
+                        Registering on this website gives you access to all the information and features posted on the website. You will be required is to provide your personal information including but not limited to your name, e-mail address, contact details and your address. We will send occasional e-mails to notify you about important changes to the site, new services and other relevant updates. You may opt not to receive such notifications at the time of registration or by sending us a mail at <a href="mailto:admin@cosmodea.com">admin@cosmodea.com</a></a> 
+                    </p>
+                    <h3>Cookies</h3>
+                    <p>
+                        This website may use cookies to identify members and to track member activity. Use of cookies is for your benefit and to enable us to understand your preferences, thereby enabling us to provide you better service. Most Web browsers automatically accept cookies but allow you to modify security settings so you can approve or reject cookies on a case-to-case basis. Even if you do not use cookies, you can still access all of the features on our site by logging in manually with each visit. 
+                    </p>
+                    <h3>Information security</h3>
+                    <p>
+                        We regularly review our compliance with this Policy. Please feel free to direct any questions or concerns regarding this Policy by contacting us through this web site or by writing to us at <a href="mailto:admin@cosmodea.com">admin@cosmodea.com</a> 
+                    </p>
+                    <h3>Enforcement</h3>
+                    <p>
+                        By using this website, you give us the permission to collect information about the pages served to you as an anonymous user for the purpose of calculating aggregate site statistics. By registering on this website, you authorize us to use the details you provide and collected by us to personalize the information we deliver to you and to use your demographic information when calculating aggregate customer data. 
+                    </p>
+                    <h3>Policy Updation</h3>
+                    <p>
+                        Please note that due to constant changes in the ever changing technological space, this Privacy Policy may be changed from time to time. We will make our best efforts to not reduce your rights under this Policy without your explicit consent. We will also be updating the Privacy Policy provided here and may intimate the change to you by notification. It is your responsibility to review the Privacy Policy and make yourself aware the changes if any.
+                    </p>
                 </div>
             </div>
         </div>
@@ -142,7 +155,6 @@
 
     </div>
 
-
     <script src="assets/js/script.js"></script>
-  </body>
+</body>
 </html>

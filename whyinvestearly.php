@@ -146,6 +146,7 @@
         <footer>
             <div class="wrapper">
                 <p>Copyright © 2016 <a href="index.php" title="PreLaunchHouse">PreLaunchHouse</a></p>
+                <p><a href="privacy-policy.php" title="Privacy Policy">Privacy Policy</a></p>
             </div>
         </footer>
         <!-- footer ends here -->
