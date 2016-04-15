@@ -1,7 +1,7 @@
 <?php
 	
 	define('GUSER', 'admin@cosmodea.com'); // GMail username
-	define('GPWD', 'cosmodeagn'); // GMail password
+	define('GPWD', 'blabla12'); // GMail password
 
 	$name=$_REQUEST['gname'];
 	$mobile=$_REQUEST['gmobile'];
